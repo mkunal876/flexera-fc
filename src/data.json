@@ -1,0 +1,325 @@
+{
+    "assets": [
+        {
+            "data": {
+                "collection_type": "SSH",
+                "cpu_architecture": "x86_64",
+                "cpu_count": "1",
+                "cpu_frequency": "2401000000",
+                "cpu_model": "Intel(R) Xeon(R) CPU E5-2676 v3 @ 2.40GHz",
+                "device_issues": [
+                    {
+                        "affected_instance_name": "N/A",
+                        "issue_description": "Max Memory Utilization %",
+                        "issue_detail": "Max Memory Utilization %",
+                        "issue_metric": "94%",
+                        "issue_name": "High Memory Utilization - linux/unix",
+                        "problemid": "120"
+                    }
+                ],
+                "deviceid": 11820168430183,
+                "devicetype": "Generic Server",
+                "dist_full": "Ubuntu 16.04.3 LTS",
+                "hardware_model": "HVM domU",
+                "hardware_serial": "ec2a48e2-b2d5-4e29-4186-0b256e8b00fb",
+                "hardware_vendor": "Xen",
+                "hostname": "web02-worker4",
+                "identifying_ip": "10.10.10.103",
+                "identifying_mac": "0a:79:31:c3:79:18",
+                "interfaces": [
+                    {
+                        "interface_admin_status": "up",
+                        "interface_description": "eth0",
+                        "interface_mac_address": "0a:79:31:c3:79:18",
+                        "interface_oper_status": "up",
+                        "interface_speed": "0",
+                        "interface_type": "ethernet-csmacd",
+                        "ips": [
+                            {
+                                "ip": "10.10.10.103",
+                                "mask": "255.255.255.0"
+                            }
+                        ]
+                    },
+                    {
+                        "interface_admin_status": "up",
+                        "interface_description": "lo",
+                        "interface_mac_address": "",
+                        "interface_oper_status": "unknown",
+                        "interface_speed": "0",
+                        "interface_type": "softwareLoopback",
+                        "ips": [
+                            {
+                                "ip": "127.0.0.1",
+                                "mask": "255.0.0.0"
+                            }
+                        ]
+                    }
+                ],
+                "ips": [
+                    {
+                        "ip": "10.10.10.103"
+                    }
+                ],
+                "memory": "1038913536",
+                "os": "Linux",
+                "os_version": "4.4.0-1047-aws",
+                "storage": [
+                    {
+                        "storage_description": "/",
+                        "storage_size_bytes": "31158935552",
+                        "storage_used_bytes": "2773094400"
+                    }
+                ]
+            },
+            "device_issues": [
+                {
+                    "affected_instance_name": "N/A",
+                    "issue_description": "Max Memory Utilization %",
+                    "issue_metric": "94%",
+                    "issue_name": "High Memory Utilization - linux/unix",
+                    "issue_reported_date": "Tue, 11 Apr 2023 00:00:00 GMT",
+                    "problemid": 120
+                }
+            ],
+            "deviceid": 11820168430183,
+            "licensed": 1,
+            "location": [
+                {
+                    "location_name": "Location3",
+                    "locationid": 11
+                }
+            ],
+            "stacks": [
+                {
+                    "stack_name": "InvoiceSystem",
+                    "stackid": 1002742
+                }
+            ],
+            "tags": [
+                {
+                    "tagid": 34,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": " on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 34,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": " on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 34,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": " on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 34,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": " on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 34,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": " on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 34,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": " on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 34,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": " on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 34,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": " on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 34,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": " on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 34,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": " on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 34,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": " on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 90,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "Schema not specified on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 90,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "Schema not specified on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 90,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "Schema not specified on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 90,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "Schema not specified on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 90,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "Schema not specified on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 90,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "Schema not specified on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 90,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "Schema not specified on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 90,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "Schema not specified on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 90,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "Schema not specified on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 37,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db (10.10.10.134 - 3306)"
+                },
+                {
+                    "tagid": 145,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "Schema not specified on web02-db 10.10.10.134 - 3306"
+                },
+                {
+                    "tagid": 146,
+                    "tagkey": "Schema dependency",
+                    "tagvalue": "wordpress2 on web02-db 10.10.10.134 - 3306"
+                },
+                {
+                    "tagid": 12,
+                    "tagkey": "Tier",
+                    "tagvalue": "Web"
+                },
+                {
+                    "tagid": 155,
+                    "tagkey": "Performance Profile",
+                    "tagvalue": "Strained"
+                }
+            ]
+        }
+    ],
+    "returnStatus": "success",
+    "returnStatusDetail": "Successfully pulled asset data"
+}

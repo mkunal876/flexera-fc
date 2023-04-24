@@ -1,0 +1,40 @@
+:where(.css-dev-only-do-not-override-1vtf12y).ant-input {
+    width: 500px !important;
+    margin: 3%;
+}
+
+:where(.css-dev-only-do-not-override-1vtf12y).ant-select {
+    margin: 3%;
+}
+
+label {
+    margin: 3%;
+}
+
+:where(.css-dev-only-do-not-override-1vtf12y)[class^="ant-space"] [class^="ant-space"], 
+:where(.css-dev-only-do-not-override-1vtf12y)[class*=" ant-space"] [class^="ant-space"], 
+:where(.css-dev-only-do-not-override-1vtf12y)[class^="ant-space"] [class*=" ant-space"], 
+:where(.css-dev-only-do-not-override-1vtf12y)[class*=" ant-space"] [class*=" ant-space"] {
+    margin-left: 5%;
+}
+
+[role=tooltip].popup-content {
+    height :550px !important;
+    left: 50% !important;
+    position: absolute !important;
+    top: 50% !important;
+    overflow: scroll;
+    transform: translate(-50%, -50%);
+    width: 80% !important;
+    z-index: 999 !important;
+}
+
+.stackList-class {
+    list-style: none;
+    border: 1px solid #1677ff;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 13px;
+    margin: 5px;
+    cursor: pointer;
+}
